@@ -1,16 +1,16 @@
-function adicionarFilme() {
-    var campoFilmeFavorito = document.querySelector('#filme')
-    var filmeFavorito = campoFilmeFavorito.value
-    if (filmeFavorito.endsWith('.jpg')) {
-        listarFilmesNaTela(filmeFavorito)
+function adicionarEstilo() {
+    var campoRoupaFavorita = document.querySelector('#ROUPA')
+    var RoupaFavorita = campoFilmeFavorito.value
+    if (RoupaFavorito.endsWith('.jpg')) {
+        listarFilmesNaTela(RoupaFavorita)
     } else {
         alert("Imagem inválida")
     }
-    campoFilmeFavorito.value = ""
+    campoRoupaFavorita.value = ""
 }
 
 function listarFilmesNaTela(filme) {
-    var listaFilmes = document.querySelector('#listaFilmes')
-    var elementoFilme = "<img src=" + filme + ">"
-    listaFilmes.innerHTML = listaFilmes.innerHTML + elementoFilme
+    var listaRoupa = document.querySelector('#listaRoupa')
+    var elementoRoupa = "<img src=" + Roupa + ">"
+    listaRoupa.innerHTML = listaRoupa.innerHTML + elementoRoupa
 }
