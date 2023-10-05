@@ -1,3 +1,4 @@
 # AluraFlix imersao.dev!
 
-Esse foi o projeto onde eu aprendi a fazer ...
+Esse foi o projeto onde eu aprendi a fazer um site
+
